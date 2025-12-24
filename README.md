@@ -9,3 +9,8 @@ sudo pacman -S rtmidi xdotool base-devel
 
 Linux Debian based (apt):
 sudo apt install rtmidi xdotool base-devel
+
+
+# TO COMPILE:
+
+g++ -o midi_translator midi_to_qwerty.cpp -lrtmidi -lpthread
